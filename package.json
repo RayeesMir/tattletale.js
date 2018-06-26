@@ -26,6 +26,12 @@
     "chai": "~1.6",
     "sinon": "~1.7",
     "sinon-chai": "~2.4",
-    "grunt-contrib-uglify": "~0.2.2"
-  }
+    "grunt-contrib-uglify": "~0.2.2",
+    "snyk": "^1.85.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
