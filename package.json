@@ -19,10 +19,10 @@
     "logging"
   ],
   "dependencies": {
-    "grunt": "~0.4",
-    "grunt-contrib-jshint": "~0.6",
+    "grunt": "~1.0.0",
+    "grunt-contrib-jshint": "~0.11.1",
     "grunt-mocha": "~0.3",
-    "mocha": "~1.10",
+    "mocha": "~3.0.0",
     "chai": "~1.6",
     "sinon": "~1.7",
     "sinon-chai": "~2.4",
